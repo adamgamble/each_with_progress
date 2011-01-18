@@ -1,0 +1,12 @@
+Each With Progress Version 0.0.1
+--------------------------------
+
+Works exactly the same as Enumerable#each but prints a progress bar to the console on each iteration
+
+Example:
+
+my_huge_array.each_with_progress do |i|
+  puts "doing some awesome thing to this array element"
+end
+
+
