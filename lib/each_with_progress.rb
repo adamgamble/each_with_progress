@@ -6,7 +6,8 @@ module Enumerable
       out.print sprintf("%s", ewp_makeProgress(i,count)) + "\r"
       block.call element
     end
-    out.print sprintf("%s",ewp_makeProgress(count, count)) + "\r"
+    out.print sprintf("%s","                         " + "\r"
+    self
   end
 
   protected

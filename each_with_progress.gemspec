@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name    = 'each_with_progress'
-  s.version = '0.0.1'
+  s.version = '0.1'
   s.summary = 'stand in replacement for Enumerable#each that will print a progress bar to the console as it loops'
 
   s.author   = 'Adam Gamble'

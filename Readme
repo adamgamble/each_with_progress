@@ -1,6 +1,10 @@
-Each With Progress Version 0.0.1
+Each With Progress Version 0.1
 --------------------------------
+Version .1 Update
+--------------------------------
+Now returns the enumerable you're looping over to be more in line with the other each methods.
 
+--------------------------------
 Works exactly the same as Enumerable#each but prints a progress bar to the console on each iteration
 
 Example:
