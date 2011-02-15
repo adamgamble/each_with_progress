@@ -3,10 +3,10 @@ module Enumerable
     out = STDERR
     count = self.count
     self.each_with_index do |element,i|
-      out.print sprintf("%s", ewp_makeProgress(i,count)) + "\r"
+      out.print sprintf("%s", ewp_makeProgress(i + 1,count)) + "\r"
       block.call element
     end
-    out.print sprintf("%s","                         " + "\r"
+    out.print sprintf("%s","                                               " + "\r")
     self
   end
 
